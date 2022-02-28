@@ -13,6 +13,16 @@
 		71F9968E27CD048600D1D603 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F9968C27CD048600D1D603 /* Main.storyboard */; };
 		71F9969027CD048800D1D603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71F9968F27CD048800D1D603 /* Assets.xcassets */; };
 		71F9969327CD048800D1D603 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F9969127CD048800D1D603 /* LaunchScreen.storyboard */; };
+		71F9969F27CD067000D1D603 /* FreeDrawingImageViewCPUSlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F9969B27CD067000D1D603 /* FreeDrawingImageViewCPUSlow.swift */; };
+		71F996A027CD067000D1D603 /* FreeDrawingImageViewSubLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F9969C27CD067000D1D603 /* FreeDrawingImageViewSubLayer.swift */; };
+		71F996A127CD067000D1D603 /* FreeDrawingImageViewDrawLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F9969D27CD067000D1D603 /* FreeDrawingImageViewDrawLayer.swift */; };
+		71F996A227CD067000D1D603 /* FreeDrawingImageViewCPUFast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F9969E27CD067000D1D603 /* FreeDrawingImageViewCPUFast.swift */; };
+		71F996A527CD06B100D1D603 /* Drawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F996A427CD06B100D1D603 /* Drawable.swift */; };
+		71F996A827CD06D400D1D603 /* DisplaySizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F996A727CD06D400D1D603 /* DisplaySizes.swift */; };
+		71F996AA27CD06E400D1D603 /* DisplayedViewEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F996A927CD06E400D1D603 /* DisplayedViewEnum.swift */; };
+		71F996B027CD074F00D1D603 /* FPSStatusBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F996AC27CD074E00D1D603 /* FPSStatusBarViewController.swift */; };
+		71F996B127CD074F00D1D603 /* FPSStatusBarWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F996AE27CD074E00D1D603 /* FPSStatusBarWindow.swift */; };
+		71F996B227CD074F00D1D603 /* FPSCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F996AF27CD074F00D1D603 /* FPSCounter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,17 @@
 		71F9968F27CD048800D1D603 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71F9969227CD048800D1D603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71F9969427CD048800D1D603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71F9969B27CD067000D1D603 /* FreeDrawingImageViewCPUSlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreeDrawingImageViewCPUSlow.swift; sourceTree = "<group>"; };
+		71F9969C27CD067000D1D603 /* FreeDrawingImageViewSubLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreeDrawingImageViewSubLayer.swift; sourceTree = "<group>"; };
+		71F9969D27CD067000D1D603 /* FreeDrawingImageViewDrawLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreeDrawingImageViewDrawLayer.swift; sourceTree = "<group>"; };
+		71F9969E27CD067000D1D603 /* FreeDrawingImageViewCPUFast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreeDrawingImageViewCPUFast.swift; sourceTree = "<group>"; };
+		71F996A427CD06B100D1D603 /* Drawable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawable.swift; sourceTree = "<group>"; };
+		71F996A727CD06D400D1D603 /* DisplaySizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplaySizes.swift; sourceTree = "<group>"; };
+		71F996A927CD06E400D1D603 /* DisplayedViewEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayedViewEnum.swift; sourceTree = "<group>"; };
+		71F996AC27CD074E00D1D603 /* FPSStatusBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPSStatusBarViewController.swift; sourceTree = "<group>"; };
+		71F996AD27CD074E00D1D603 /* FPSCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPSCounter.h; sourceTree = "<group>"; };
+		71F996AE27CD074E00D1D603 /* FPSStatusBarWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPSStatusBarWindow.swift; sourceTree = "<group>"; };
+		71F996AF27CD074F00D1D603 /* FPSCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPSCounter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +77,10 @@
 		71F9968527CD048600D1D603 /* CoreGraphics-Performance */ = {
 			isa = PBXGroup;
 			children = (
+				71F996AB27CD071000D1D603 /* FramerateCounter */,
+				71F996A627CD06C500D1D603 /* Enum */,
+				71F996A327CD06A400D1D603 /* Extension */,
+				71F9969A27CD04CA00D1D603 /* DrawingViews */,
 				71F9968627CD048600D1D603 /* AppDelegate.swift */,
 				71F9968827CD048600D1D603 /* SceneDelegate.swift */,
 				71F9968A27CD048600D1D603 /* ViewController.swift */,
@@ -65,6 +90,45 @@
 				71F9969427CD048800D1D603 /* Info.plist */,
 			);
 			path = "CoreGraphics-Performance";
+			sourceTree = "<group>";
+		};
+		71F9969A27CD04CA00D1D603 /* DrawingViews */ = {
+			isa = PBXGroup;
+			children = (
+				71F9969E27CD067000D1D603 /* FreeDrawingImageViewCPUFast.swift */,
+				71F9969B27CD067000D1D603 /* FreeDrawingImageViewCPUSlow.swift */,
+				71F9969D27CD067000D1D603 /* FreeDrawingImageViewDrawLayer.swift */,
+				71F9969C27CD067000D1D603 /* FreeDrawingImageViewSubLayer.swift */,
+			);
+			path = DrawingViews;
+			sourceTree = "<group>";
+		};
+		71F996A327CD06A400D1D603 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				71F996A427CD06B100D1D603 /* Drawable.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		71F996A627CD06C500D1D603 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				71F996A727CD06D400D1D603 /* DisplaySizes.swift */,
+				71F996A927CD06E400D1D603 /* DisplayedViewEnum.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		71F996AB27CD071000D1D603 /* FramerateCounter */ = {
+			isa = PBXGroup;
+			children = (
+				71F996AD27CD074E00D1D603 /* FPSCounter.h */,
+				71F996AF27CD074F00D1D603 /* FPSCounter.swift */,
+				71F996AC27CD074E00D1D603 /* FPSStatusBarViewController.swift */,
+				71F996AE27CD074E00D1D603 /* FPSStatusBarWindow.swift */,
+			);
+			path = FramerateCounter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +202,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71F996A227CD067000D1D603 /* FreeDrawingImageViewCPUFast.swift in Sources */,
 				71F9968B27CD048600D1D603 /* ViewController.swift in Sources */,
 				71F9968727CD048600D1D603 /* AppDelegate.swift in Sources */,
+				71F996A527CD06B100D1D603 /* Drawable.swift in Sources */,
+				71F996B027CD074F00D1D603 /* FPSStatusBarViewController.swift in Sources */,
+				71F996B127CD074F00D1D603 /* FPSStatusBarWindow.swift in Sources */,
 				71F9968927CD048600D1D603 /* SceneDelegate.swift in Sources */,
+				71F996A127CD067000D1D603 /* FreeDrawingImageViewDrawLayer.swift in Sources */,
+				71F996A827CD06D400D1D603 /* DisplaySizes.swift in Sources */,
+				71F996AA27CD06E400D1D603 /* DisplayedViewEnum.swift in Sources */,
+				71F996A027CD067000D1D603 /* FreeDrawingImageViewSubLayer.swift in Sources */,
+				71F9969F27CD067000D1D603 /* FreeDrawingImageViewCPUSlow.swift in Sources */,
+				71F996B227CD074F00D1D603 /* FPSCounter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,8 +361,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6UW3PJQ8Q3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "CoreGraphics-Performance/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -296,6 +372,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +380,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.solar.CoreGraphics-Performance";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Solar dev";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -314,8 +392,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6UW3PJQ8Q3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "CoreGraphics-Performance/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -323,6 +403,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,6 +411,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.solar.CoreGraphics-Performance";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Solar dev";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
